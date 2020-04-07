@@ -6,6 +6,8 @@ export const Container = styled.View`
 `
 export const Label = styled.Text`
   padding: 16px;
+  margin: 16px 16px 0 16px;
+  padding-bottom: 0;
   color: #8B81FC;
   font-size: 18px;
 `
@@ -13,7 +15,7 @@ export const Label = styled.Text`
 export const FormContainer = styled.View`
   flex-direction: row;
   align-items: center;
-  margin: 16px;
+  margin: 10px 16px 16px 16px;
   
 `
 export const InputSearch = styled.TextInput.attrs({
@@ -28,7 +30,7 @@ export const InputSearch = styled.TextInput.attrs({
   flex-grow: 1;
 `
 export const BtnSubmit = styled.TouchableHighlight.attrs({
-  underlayColor: 'yellow'
+  underlayColor: '#8B81FC'
 })`
   background: #CC48F0;
   border-radius: 5px;
@@ -36,5 +38,5 @@ export const BtnSubmit = styled.TouchableHighlight.attrs({
   align-items: center;
 `
 export const BtnLabel = styled.Text`
-  color: #fff
+  color: #fff;
 `
