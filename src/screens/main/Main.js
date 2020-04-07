@@ -1,10 +1,17 @@
 import React from 'react'
-import { View } from 'react-native'
 
-// import { Container } from './styles';
+import { Container, Label, InputSearch, FormContainer, BtnSubmit, BtnLabel } from './styles'
 
 export default function Main () {
   return (
-    <View />
+    <Container>
+      <Label>
+        Search a new Position
+      </Label>
+      <FormContainer>
+        <InputSearch placeholder='search a new Job' />
+        <BtnSubmit><BtnLabel>Search</BtnLabel></BtnSubmit>
+      </FormContainer>
+    </Container>
   )
 }
