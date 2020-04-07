@@ -1,11 +1,11 @@
 import 'react-native-gesture-handler'
 import React from 'react'
-import { View } from 'react-native'
+import NavigatorContainer from './navigator/NavigatorApp'
 
 // import { Container } from './styles';
 
 export default function App () {
   return (
-    <View />
+    <NavigatorContainer />
   )
 }
