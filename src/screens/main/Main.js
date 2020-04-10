@@ -51,7 +51,7 @@ export default function Main () {
           renderItem={({ item }) => <JobItem title={item.title} type={item.type} />}
         />
       </View>
-      <Label>Total: {jobs.length > 0 ? jobs.length : 0}</Label>
+      <Label>Total: {jobs.length > 0 ? jobs.length : 0} Jobs</Label>
     </Container>
   )
 }

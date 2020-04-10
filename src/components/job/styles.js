@@ -11,7 +11,10 @@ export const JobList = styled.View`
 `
 export const Jobtitle = styled.Text`
   color: #fff;
+  font-size: 14px;
 `
 export const Jobtype = styled.Text`
-  color: #fff;
+font-size: 12px;
+color: #fff;
+text-transform: uppercase;
 `
